@@ -19,8 +19,12 @@ public class BookingParisTest {
         city_enter = driver.findElement(By.xpath("//*[@id='ss']"));
         city_enter.findElement(By.xpath("//*[@id='ss']")).sendKeys("Paris");
 
+<<<<<<< HEAD
         driver.findElement(By.xpath
                 ("//div[@data-calendar2-title='Приезжаю']")).click();
+=======
+        driver.findElement(By.xpath("//div[@data-calendar2-title='Приезжаю']")).click();
+>>>>>>> 57cb897... Added SeleniumTest
 
         //Calendar testing
 
