@@ -4,7 +4,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class SeleniumTest {
-  1      System.setProperty("webdriver.chrome.driver", "/Users/yuliap/IdeaProjects/DAY10/src/SeleniumDriver/chromedriver");
+       System.setProperty("webdriver.chrome.driver", "/Users/yuliap/IdeaProjects/DAY10/src/SeleniumDriver/chromedriver");
         WebDriver driver = new ChromeDriver();
         driver.get("https:google.com");
         //System.out.println(driver.getTitle());
